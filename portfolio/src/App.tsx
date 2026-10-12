@@ -1,9 +1,12 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 const App = () => {
 	return (
-		<>
-			<h1>Samuel Banfi</h1>
-			<h3>Software developer and photographer</h3>
-		</>
+		<main>
+			<Header />
+			<Hero />
+		</main>
 	);
 };
 
